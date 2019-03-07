@@ -1,0 +1,37 @@
+/*
+* Meaghan O'Brien 
+* Due Date
+* Project Name and Description
+*/
+
+/* The universal selector */
+
+* {
+
+}
+
+/* Body attributes here */
+
+body {
+    width: 80%; 
+    margin: auto;
+    background-color: peachpuff;
+    font-family: fantasy;
+}
+h1 {
+    background-color: powderblue; /* background color */
+    color: antiquewhite; /* color of text */ 
+}
+h3 {
+    font-family:cursive;
+}
+p { /* type selector for ALL paragraphs */ 
+    color: darkseagreen;
+}
+#redText { /* use an id to change text to red */
+    color: red;
+}
+
+.greenText { /* use a class to change the text to green in different kinds of element */
+    color: green; 
+}
